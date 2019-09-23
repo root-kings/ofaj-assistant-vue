@@ -8,14 +8,14 @@
             i.material-icons menu
           ul#nav-mobile.right.hide-on-med-and-down
             li
-              router-link(:to="'home'") Home
+              router-link(:to="'documents'") Documents
             li
               router-link(:to="'about'") About
             li
               a(@click="logout()") Logout
       ul#mobile-demo.sidenav
         li
-          router-link(:to="'home'") Home
+          router-link(:to="'documents'") Documents
         li
           router-link(:to="'about'") About
         li
