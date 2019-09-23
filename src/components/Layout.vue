@@ -47,14 +47,14 @@ export default {
 }
 </script>
 <!-- styling for the component -->
-<style>
+<style lang="scss" scoped>
 #layout {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-}
 
-main {
-  flex: 1 0 auto;
+  main {
+    flex: 1 0 auto;
+  }
 }
 </style>
