@@ -30,10 +30,10 @@ import M from 'materialize-css'
 
 export default {
   name: 'Layout',
-  beforeCreate: function() {
-    if (!this.$session.exists() || !this.$session.get('user'))
-      this.$router.push('/login')
-  },
+  // beforeCreate: function() {
+  //   if (!this.$session.exists() || !this.$session.get('user'))
+  //     this.$router.push('/login')
+  // },
   mounted: () => {
     M.AutoInit()
   },
