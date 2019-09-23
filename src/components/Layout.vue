@@ -8,16 +8,16 @@
             i.material-icons menu
           ul#nav-mobile.right.hide-on-med-and-down
             li
-              router-link(:to="'/'") Home
+              router-link(:to="'home'") Home
             li
-              router-link(:to="'/about'") About
+              router-link(:to="'about'") About
             li
               a(@click="logout()") Logout
       ul#mobile-demo.sidenav
         li
-          router-link(:to="'/'") Home
+          router-link(:to="'home'") Home
         li
-          router-link(:to="'/about'") About
+          router-link(:to="'about'") About
         li
           a(@click="logout()") Logout
     main
